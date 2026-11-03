@@ -1,6 +1,7 @@
 --- EDITOR OPTIONS ---
 vim.o.number = true -- line numbers
 vim.o.relativenumber = true
+vim.o.showmode = false
 
 vim.o.tabstop = 2 -- set tab size to 2 spaces
 vim.o.softtabstop = 2

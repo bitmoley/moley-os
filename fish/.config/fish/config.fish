@@ -1,6 +1,8 @@
 function fish_greeting
 end
 
+set -gx SUDO_EDITOR nvim
+
 ### ALIASES ###
 # navigation
 alias cdd="cd ~/vault"

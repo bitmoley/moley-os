@@ -20,7 +20,7 @@ vim.pack.add({
 
 -- plugin setup
 require("mini.pick").setup()
---require("mini.statusline").setup()
+require("mini.statusline").setup()
 require("mini.icons").setup()
 require("mini.completion").setup()
 require("mini.snippets").setup()

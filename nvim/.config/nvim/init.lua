@@ -7,7 +7,7 @@ require("config.keymaps")
 require("config.options")
 
 -- LSP configs
-vim.lsp.enable({ "lua_ls", "basedpyright", "ruff", "rust_analyzer", "gopls", "clangd", "ols" })
+vim.lsp.enable({ "lua_ls", "basedpyright", "ruff", "rust_analyzer", "gopls", "clangd", "ols", "nixd"})
 
 vim.lsp.config('basedpyright', {
   settings = {
