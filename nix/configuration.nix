@@ -6,6 +6,7 @@
       ./hardware-configuration.nix
       ./modules/desktop.nix
       ./modules/dev.nix
+      ./modules/apps.nix
     ];
 
   boot.loader.systemd-boot.enable = true;

@@ -98,9 +98,5 @@ bindsym $mod+Ctrl+m exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
-bar {
-    swaybar_command waybar
-}
-
 include /etc/sway/config.d/*
 include /etc/sway/config-vars.d/*

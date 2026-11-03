@@ -14,17 +14,18 @@
   };
 
   programs.dconf.enable = true;
-
-  programs.firefox.enable = true;
+  programs.thunar.enable = true;
+  services.gvfs.enable = true;
+  services.tumbler.enable = true;
 
   environment.systemPackages = with pkgs; [
+    firefox
     fuzzel
     starship
     zoxide
     eza
     mako
     stow
-    thunar
   ];
 
   fonts.packages = with pkgs; [
