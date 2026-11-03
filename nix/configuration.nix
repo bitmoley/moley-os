@@ -4,6 +4,7 @@
   imports =
     [
       ./hardware-configuration.nix
+      ./modules/desktop.nix
     ];
 
   boot.loader.systemd-boot.enable = true;
@@ -38,36 +39,16 @@
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
   ### DESKTOP ENVIRONMENT ###
-  programs.sway.enable = true;
-
-  services.greetd = {
-    enable = true;
-    settings = {
-      default_session = {
-        command = "${pkgs.tuigreet}/bin/tuigreet --time --cmd sway";
-        user = "moley";
-      };
-    };
-  };
-
-  programs.fish.enable = true;
-  programs.dconf.enable = true;
   
   ### PACKAGES ###
  
-  programs.firefox.enable = true;
  
   environment.systemPackages = with pkgs; [
     neovim
     wget
     git
     ghostty
-    mako
-    zoxide
-    eza
-    starship
     tmux
-    fuzzel
     nixd
     go
     gopls
@@ -76,12 +57,6 @@
     clang
     clang-tools
     lazygit
-    stow
-  ];
-
-  fonts.packages = with pkgs; [
-    nerd-fonts.jetbrains-mono
-    jetbrains-mono
   ];
 
   system.stateVersion = "26.05";
