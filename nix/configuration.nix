@@ -5,6 +5,7 @@
     [
       ./hardware-configuration.nix
       ./modules/desktop.nix
+      ./modules/dev.nix
     ];
 
   boot.loader.systemd-boot.enable = true;
@@ -37,27 +38,6 @@
 
   # Enable flake
   nix.settings.experimental-features = [ "nix-command" "flakes"];
-
-  ### DESKTOP ENVIRONMENT ###
-  
-  ### PACKAGES ###
- 
- 
-  environment.systemPackages = with pkgs; [
-    neovim
-    wget
-    git
-    ghostty
-    tmux
-    nixd
-    go
-    gopls
-    odin
-    ols
-    clang
-    clang-tools
-    lazygit
-  ];
 
   system.stateVersion = "26.05";
 }
