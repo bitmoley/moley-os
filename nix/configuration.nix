@@ -14,9 +14,7 @@
   networking.hostName = "moley-os";
   networking.networkmanager.enable = true;
 
-  # Set your time zone.
   time.timeZone = "Europe/London";
-
   console.keyMap = "uk";
 
   services.pipewire = {
@@ -27,7 +25,6 @@
   # Enable touchpad support (enabled default in most desktopManager).
   services.libinput.enable = true;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.moley = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "video"];
@@ -36,6 +33,9 @@
       tree
     ];
   };
+
+  # Enable flake
+  nix.settings.experimental-features = [ "nix-command" "flakes"];
 
   ### DESKTOP ENVIRONMENT ###
   programs.sway.enable = true;
