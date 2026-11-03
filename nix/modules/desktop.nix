@@ -13,7 +13,6 @@
     };
   };
 
-  programs.fish.enable = true;
   programs.dconf.enable = true;
 
   programs.firefox.enable = true;
@@ -25,6 +24,7 @@
     eza
     mako
     stow
+    thunar
   ];
 
   fonts.packages = with pkgs; [
