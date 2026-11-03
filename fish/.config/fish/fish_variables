@@ -1,4 +1,4 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/home/moley/apps\x1e/home/moley/bin/scripts\x1e/home/moley/bin\x1e/home/moley/bin/ols\x1e/Users/moley/bin/love\x1e/Users/moley/bin/ols\x2ddev\x2d2026\x2d03\x2d07\x1e/Users/moley/vault/bin/script\x1e/Users/moley/vault/bin/ols\x2ddev\x2d2026\x2d03\x2d07\x1e/Users/moley/vault/bin/colours\x1e/Users/moley/vault/bin/ols\x1e/Users/moley/vault/bin\x1e/Users/moley/vault/scripts\x1e/Users/moley/vault/binaries/ols\x1e/Users/moley/go/bin\x1e/Users/moley/\x2eemacs\x2ed/bin
+SETUVAR fish_user_paths:/home/moley/scripts\x1e/home/moley/apps\x1e/home/moley/bin/scripts\x1e/home/moley/bin\x1e/home/moley/bin/ols\x1e/Users/moley/bin/love\x1e/Users/moley/bin/ols\x2ddev\x2d2026\x2d03\x2d07\x1e/Users/moley/vault/bin/script\x1e/Users/moley/vault/bin/ols\x2ddev\x2d2026\x2d03\x2d07\x1e/Users/moley/vault/bin/colours\x1e/Users/moley/vault/bin/ols\x1e/Users/moley/vault/bin\x1e/Users/moley/vault/scripts\x1e/Users/moley/vault/binaries/ols\x1e/Users/moley/go/bin\x1e/Users/moley/\x2eemacs\x2ed/bin
